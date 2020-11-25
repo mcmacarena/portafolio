@@ -1,0 +1,120 @@
+.toggleHidden {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: #7539C2;
+  color:white;
+  position: fixed;
+  transform: translateX(100%);
+  top: 100px;
+  right: 0;
+  height: auto;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+  cursor:pointer;
+  
+}
+.toggleVisible {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: #7539C2;
+  color:white;
+  position: absolute;
+  transform: translateX(0%);
+  top: 100px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+  cursor:pointer;
+}
+.eachContainerMenuToggle{
+  display: flex;
+  color:white;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.eachContainerMenuToggle:hover {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #56229b
+}
+@media screen and (max-width:1008px) and (min-width:641px){
+  .iconMenuToggle{
+    display: none;
+  }
+  .toggleHidden {
+    border-top: none;
+    flex-direction: row;
+    background-color:none;
+    position: unset;
+    transform: translateX(0%);
+    top: 0;
+    right: 0;
+
+  }
+  .toggleVisible {
+    border-top: none;
+    flex-direction: row;
+    background-color: none;
+    position: unset;
+    transform: translateX(0%);
+    top: 0;
+    right: 0px;
+    height: auto;
+  }
+  .eachContainerMenuToggle{
+    display: flex;
+    height:auto;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .eachContainerMenuToggle:hover {
+    font-size: 18px;
+    background-color: transparent;
+    text-shadow: 0 0 20px #f100e5
+  }
+}
+  /* DESKTOP*/
+  @media screen and (min-width:1009px){
+  .iconMenuToggle{
+    display: none;
+  }
+  .toggleHidden {
+    border-top: none;
+    flex-direction: row;
+    background-color:none;
+    position: unset;
+    transform: translateX(0%);
+    top: 0;
+    right: 0;
+
+  }
+  .toggleVisible {
+    border-top: none;
+    flex-direction: row;
+    background-color: none;
+    position: unset;
+    transform: translateX(0%);
+    top: 0;
+    right: 0px;
+    height: auto;
+  }
+  .eachContainerMenuToggle{
+    display: flex;
+    height:auto;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .eachContainerMenuToggle:hover {
+    font-size: 22px;
+    background-color: transparent;
+    text-shadow: 0 0 20px #f100e5
+  }
+}

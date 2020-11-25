@@ -1,0 +1,57 @@
+.sectionPresentation{
+  display: flex;
+  height: 180px;
+  width: 100%;
+  background:linear-gradient( #7539C2, #7539C2, #5a24a0);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.containerTextsPresentation{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+}
+.namePresentation{
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 7px;
+}
+.especialityPresentation{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+.textPresentation{
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 15px;
+}
+/* TABLET*/
+@media screen and (max-width:1008px) and (min-width:641px){
+  .iconMenuToggle{
+    display: none;
+  }
+}
+/* DESKTOP */
+@media screen and (min-width:1009px){
+  .namePresentation{
+    font-size: 45px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+  }
+  .especialityPresentation{
+    font-size: 35px;
+    margin-bottom: 13px;
+  }
+  .textPresentation{
+    font-size: 25px;
+  }
+  .sectionPresentation{
+    height: 300px;
+    padding-top: 100px;
+  }
+}

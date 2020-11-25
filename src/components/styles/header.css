@@ -1,0 +1,64 @@
+.header{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background: #7539C2;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 2
+}
+.containerLogoHome{
+  display:flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnLogo{
+  display: flex;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #7539C2;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+}
+.btnLogo:hover{
+  box-shadow: 0 0 20px #d713fe;
+}
+.iconMenuToggle{
+  color: white;
+  font-size: 30px;
+  cursor:pointer;
+}
+.iconMenuToggle:hover{
+  text-shadow: 0 0 20px #fe13f2;
+  font-size: 32px;
+}
+/* TABLET*/
+@media screen and (max-width:1008px) and (min-width:641px){
+  .iconMenuToggle{
+    display: none;
+  }
+}
+/* DESKTOP */
+@media screen and (min-width:1009px){
+  .iconMenuToggle{
+    display: none;
+  }
+  .header{
+    height: 120px;
+  }
+  .btnLogo{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 35px;
+  }
+}

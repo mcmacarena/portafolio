@@ -1,0 +1,130 @@
+.sectionProjects{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+  margin-top: -100px;
+}
+.containerSectionProjects{
+  display: flex;
+  width: 90%;
+  flex-flow: column nowrap;
+}
+.titleSection{
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: #575657;
+  margin-bottom: 50px;
+  align-self: center;
+}
+.containerPhotoDesktop{
+  width: 100%;
+  max-width: 550px;
+}
+.photoDesktop{
+  width: 100%;
+}
+.containerTextProject{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.titleProject{
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #5A24A0;
+  margin-bottom: 14px;
+}
+.infoProject{
+  font-size: 16px;
+  color: #575657;
+}
+.sourcesProject{
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #5A24A0;
+}
+.eachProject{
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 70px;
+  align-items: center;
+}
+.containerBtnProjects{
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.containerBtnWidth{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}
+.btnProject{
+  background: #5A24A0;
+  border: 1px solid #5A24A0;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  width: 75%;
+  max-width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.05em;
+}
+.btnProject:hover{
+  box-shadow: 0 0 20px #fe13f2;
+  width: 80%;
+  max-width: 155px;
+  font-size: 16px;
+  background: #44009c;
+}
+/* TABLET*/
+@media screen and (max-width:1008px) and (min-width:641px){
+  .containerSectionProjects{
+    max-width: 577px;
+  }
+  .infoProject{
+    font-size: 18px;
+  }
+}
+/* DESKTOP */
+@media screen and (min-width:1009px){
+  .eachProject{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 100px;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .containerTextProject{
+    margin-top: 10px;
+    width: 40%;
+    justify-content: space-around;
+  }
+  .containerTextProject{
+    height: 343px;
+  }
+  .containerBtnProjects{
+    margin-bottom:20px
+  }
+  .titleProject{
+    font-size: 25px;
+    margin-bottom: 16px;
+  }
+  .infoProject{
+    font-size: 18px;
+  }
+  .sourcesProject{
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}

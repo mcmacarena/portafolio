@@ -1,0 +1,89 @@
+.sectionContact{
+  padding-top: 100px;
+  margin-top: -100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.containerContact{
+  display: flex;
+  width: 90%;
+  flex-flow: column nowrap;
+}
+.containerPhotoDog{
+  display: flex;
+  justify-content: center;
+}
+.photoDog{
+  width: 200px;
+  height: 200px;
+}
+.textContact{
+  font-size: 16px;
+  color: #575657;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containerMailLinkedin{
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 30px;
+}
+.containerMail,.containerLinkedin{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.containerMail:hover,.containerLinkedin:hover{
+  font-weight: bold;
+  text-shadow: 0 0 20px #7539C2;
+}
+.textEmail,.textLinkedin{
+  font-weight: bold;
+  font-size: 15px;
+  color: #575657;
+  align-content: center;
+}
+.myEmail,.myLinkedin{
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  color: #575657;
+}
+.photoGmail,.photoLinkedin{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.linkLinkedin{
+  
+  color: #575657;
+}
+
+/* TABLET */
+@media screen and (max-width:1008px) and (min-width:641px){
+  .textContact{
+    font-size: 18px;
+  }
+
+}
+/* DESKTOP */
+@media screen and (min-width:1009px){
+  .containerDogText{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .textContact{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
