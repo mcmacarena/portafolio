@@ -81,7 +81,7 @@
   letter-spacing: 0.05em;
 }
 .btnProject:hover{
-  box-shadow: 0 0 20px #fe13f2;
+  box-shadow: 0 0 10px #7700ff;
   width: 80%;
   max-width: 155px;
   font-size: 16px;

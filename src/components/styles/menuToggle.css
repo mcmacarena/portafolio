@@ -42,7 +42,8 @@
 .eachContainerMenuToggle:hover {
   font-size: 18px;
   font-weight: bold;
-  background-color: #56229b
+  background-color: #56229b;
+  
 }
 @media screen and (max-width:1008px) and (min-width:641px){
   .iconMenuToggle{
@@ -75,9 +76,9 @@
     font-weight: bold;
   }
   .eachContainerMenuToggle:hover {
-    font-size: 18px;
+    font-size: 17px;
     background-color: transparent;
-    text-shadow: 0 0 20px #f100e5
+    text-shadow: 0 0 20px #000000
   }
 }
   /* DESKTOP*/
@@ -113,8 +114,8 @@
     font-size: 20px;
   }
   .eachContainerMenuToggle:hover {
-    font-size: 22px;
+    font-size: 21px;
     background-color: transparent;
-    text-shadow: 0 0 20px #f100e5
+    text-shadow: 0 0 20px #000000
   }
 }

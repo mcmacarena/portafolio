@@ -21,7 +21,7 @@ const SectionAboutMe = () => {
                 Cada desafío que se presenta lo enfrento con ansias de aprender y generar valor desde mis conocimientos.
               </div>
               <div className='textAboutMe'>
-                Para conocer más detalles sobre mí y mi trayectoria, te invito a ver mi CV en el siguiente enlace:
+                Para conocer más detalles sobre mí, te invito a ver mi CV en el siguiente enlace:
               </div>
               <div className='containerBtnCV'>
                 <button className='btnCV' onClick={()=>window.open(CV,'_blank')}>Ver mi CV</button>

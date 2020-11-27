@@ -37,7 +37,7 @@ const SectionContact = () => {
                   LINKEDIN:
                 </div>
                 <div className='myLinkedin'>
-                  <p className='linkLinkedin'>macarenacuevasg</p>
+                  <p>macarenacuevasg</p>
                 </div>
               </a>
             </div>

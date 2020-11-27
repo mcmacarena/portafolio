@@ -39,7 +39,9 @@
 }
 .containerMail:hover,.containerLinkedin:hover{
   font-weight: bold;
-  text-shadow: 0 0 20px #7539C2;
+}
+.myEmail:hover,.myLinkedin:hover{
+  color:#5A24A0
 }
 .textEmail,.textLinkedin{
   font-weight: bold;
