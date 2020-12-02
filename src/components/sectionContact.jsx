@@ -5,6 +5,19 @@ import gmail from '../img/gmail.png';
 import linkedin from '../img/linkedin.png'
 
 const SectionContact = () => {
+
+  const copyMail = (mail) => {
+    let auxiliaryElement = document.createElement('textarea');
+    document.body.appendChild(auxiliaryElement);
+    auxiliaryElement.value = mail;
+    auxiliaryElement.select();
+    document.execCommand("copy");
+    let tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Correo copiado! ";
+    document.body.removeChild(auxiliaryElement);
+  }
+
+
   return (
     <section className='sectionContact'>
       <div className='containerContact'>
@@ -18,18 +31,21 @@ const SectionContact = () => {
               Si te gustó lo que viste o tienes alguna inquietud, no dudes en contactarme por cualquiera de estos medios:
             </div>
             <div className='containerMailLinkedin'>
-              <a className='containerMail' href='https://mail.google.com/mail/?view=cm&fs=1&to=macarenacuevasg@gmail.com' target='i'>
-                <div className='iconEmail'>
-                  <img src={gmail} alt='' className='photoGmail' />
+              <div className='tooltip' >
+                <span className='tooltiptext' id='myTooltip'>Copiar correo</span>
+                <div className='containerMail' onClick={() => copyMail('macarenacuevasg@gmail.com')}>
+                  <div className='iconEmail'>
+                    <img src={gmail} alt='' className='photoGmail' />
+                  </div>
+                  <div className='textEmail'>
+                    EMAIL:
                 </div>
-                <div className='textEmail'>
-                  EMAIL:
+                  <div className='myEmail'>
+                    macarenacuevasg@gmail.com
                 </div>
-                <div className='myEmail'>
-                  macarenacuevasg@gmail.com
                 </div>
-              </a>
-              <a className='containerLinkedin' href='https://www.linkedin.com/in/macarenacuevasg/' target='j'>
+              </div>
+              <a className='containerLinkedin' href='https://www.linkedin.com/in/macarenacuevasg/' target='i'>
                 <div className='iconLinkedin'>
                   <img src={linkedin} alt='' className='photoLinkedin' />
                 </div>
