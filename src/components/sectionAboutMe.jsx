@@ -35,7 +35,7 @@ const SectionAboutMe = () => {
                   <Zoom delay={700} triggerOnce><span className='eachHability'>HTML</span></Zoom>
                   <Zoom delay={1000} triggerOnce><span className='eachHability'>CSS</span></Zoom>
                   <Zoom delay={1300} triggerOnce><span className='eachHability'>GIT</span></Zoom>
-                  <Zoom delay={1600} triggerOnce><span className='eachHability'>REACJS</span></Zoom>
+                  <Zoom delay={1600} triggerOnce><span className='eachHability'>REACTJS</span></Zoom>
                   <Zoom delay={1900} triggerOnce ><span className='eachHability'>FIREBASE</span></Zoom>
                 </div>
               </div>

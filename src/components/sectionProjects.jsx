@@ -29,7 +29,7 @@ const SectionProjects = () => {
           </div>
           <div className='containerTextProject'>
             <span className='titleProject'>League Pickup</span>
-            <span className='infoProject'>WebApp que muestra personajes del juego League Of Legends y permite al usuario interacturar
+            <span className='infoProject'>WebApp que muestra personajes del juego League Of Legends y permite al usuario interactuar
             a través de filtros.</span>
             <span className='infoProject'>Al clickear se muestra información más detallada a través de un modal.</span>
             <span className='sourcesProject'>JAVASCRIPT - CSS - HTML </span>
@@ -79,7 +79,7 @@ const SectionProjects = () => {
           <div className='containerTextProject'>
             <span className='titleProject'>Retro Burger</span>
             <span className='infoProject'>WebApp interna de un restaurant llamado Retro Burguer, creada para la interacción del mesero con el cocinero
-            que funciona simultaneamente. </span>
+            que funciona simultaneamente. Creada para Tablet </span>
             <span className='sourcesProject'> REACT - CSS - FIREBASE </span>
             <div className='containerBtnProjects'>
               <a className='containerBtnWidth' href='https://retro-burger-2.firebaseapp.com/' target='f'>
