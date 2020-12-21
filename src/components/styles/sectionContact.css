@@ -119,6 +119,13 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .sectionContact{
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .contentContactMe{
+    margin: 90px 0 90px 0;
+  }
 }
 
 

@@ -8,8 +8,8 @@ import barkifyDesktop from '../img/barkifyDesktop.png';
 import barkifyMobile from '../img/barkifyMobile.png';
 import cptDesktop from '../img/comidaparatodosDesktop.png';
 import cptMobile from '../img/comidaparatodosMobile.png';
-import retroburgerDesktop from '../img/retroburgerDesktop.png';
-import retroburgerTablet from '../img/retroburgerTablet.png';
+import tictactoe1 from '../img/mockupTictactoe1.png';
+import tictactoe2 from '../img/mockupTictactoe2.png';
 
 const SectionProjects = () => {
 
@@ -68,29 +68,6 @@ const SectionProjects = () => {
             </div>
           </div>
         </div>
-        {/* burger queen */}
-        <div className='eachProject'>
-          <div className='containerPhotoDesktop'>
-            <AliceCarousel disableDotsControls disableButtonsControls={buttonControls} autoPlay infinite autoPlayInterval='3000'>
-              <img src={retroburgerDesktop} alt='' className='photoDesktop' />
-              <img src={retroburgerTablet} alt='' className='photoDesktop' />
-            </AliceCarousel>
-          </div>
-          <div className='containerTextProject'>
-            <span className='titleProject'>Retro Burger</span>
-            <span className='infoProject'>WebApp interna de un restaurant llamado Retro Burguer, creada para la interacción del mesero con el cocinero
-            que funciona simultaneamente. Creada para Tablet </span>
-            <span className='sourcesProject'> REACT - CSS - FIREBASE </span>
-            <div className='containerBtnProjects'>
-              <a className='containerBtnWidth' href='https://retro-burger-2.firebaseapp.com/' target='f'>
-                <button className='btnProject'>WebApp</button>
-              </a>
-              <a className='containerBtnWidth' href='https://github.com/mcmacarena/retro-burger' target='e'>
-                <button className='btnProject'>GitHub</button>
-              </a>
-            </div>
-          </div>
-        </div>
         {/* comida para todos */}
         <div className='eachProject'>
           <div className='containerPhotoDesktop'>
@@ -101,14 +78,35 @@ const SectionProjects = () => {
           </div>
           <div className='containerTextProject'>
             <span className='titleProject'>Comida para todos</span>
-            <span className='infoProject'>Propuesta de web para fundación "Comida para todos", entidad benéfica para 
-            combatir el hambre a través de diversas donaciones.</span>
+            <span className='infoProject'>Propuesta de web para fundación "Comida para todos", entidad benéfica para combatir el hambre a través de diversas donaciones.</span>
             <span className='sourcesProject'>REACT - CSS - FIREBASE </span>
             <div className='containerBtnProjects'>
               <a className='containerBtnWidth' href='https://comida-para-todos-28f10.web.app/' target='h'>
                 <button className='btnProject'>WebApp</button>
               </a>
               <a className='containerBtnWidth' href='https://github.com/mcmacarena/comida-para-todos' target='g'>
+                <button className='btnProject'>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* tic-tac-toe */}
+        <div className='eachProject'>
+          <div className='containerPhotoDesktop'>
+            <AliceCarousel disableDotsControls disableButtonsControls={buttonControls} autoPlay infinite autoPlayInterval='3000'>
+              <img src={tictactoe1} alt='' className='photoDesktop' />
+              <img src={tictactoe2} alt='' className='photoDesktop' />
+            </AliceCarousel>
+          </div>
+          <div className='containerTextProject'>
+            <span className='titleProject'>Christmas Ti-tac-toe</span>
+            <span className='infoProject'> Aplicación creada para Android para jugar al tic-tac-toe en un ambiente inspirado en la festividad de Navidad</span>
+            <span className='sourcesProject'> REACT NATIVE - EXPO  </span>
+            <div className='containerBtnProjects'>
+              <a className='containerBtnWidth' href='https://appetize.io/embed/rrter8mmfw3pddh6dw4jtrc6m4?device=pixel4&scale=75&orientation=portrait&osVersion=10.0' target='f'>
+                <button className='btnProject'>App</button>
+              </a>
+              <a className='containerBtnWidth' href='https://github.com/mcmacarena/tic-tac-toe' target='e'>
                 <button className='btnProject'>GitHub</button>
               </a>
             </div>
