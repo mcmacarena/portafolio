@@ -99,7 +99,7 @@ const SectionProjects = () => {
             </AliceCarousel>
           </div>
           <div className='containerTextProject'>
-            <span className='titleProject'>Christmas Ti-tac-toe</span>
+            <span className='titleProject'>Christmas Tic-tac-toe</span>
             <span className='infoProject'> Aplicación creada para Android para jugar al tic-tac-toe en un ambiente inspirado en la festividad de Navidad</span>
             <span className='sourcesProject'> REACT NATIVE - EXPO  </span>
             <div className='containerBtnProjects'>
