@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/sectionContact.css';
-import dog from '../img/perrito.png';
-import gmail from '../img/gmail.png';
-import linkedin from '../img/linkedin.png'
+import './sectionContact.css';
+import dog from '../../img/perrito.png';
+import gmail from '../../img/gmail.png';
+import linkedin from '../../img/linkedin.png'
 
 const SectionContact = () => {
 
