@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/sectionAboutMe.css';
+import './sectionAboutMe.css';
 import { Zoom } from "react-awesome-reveal";
-import imgMe from '../img/fotolinkedin_opt.png';
-import CV from '../files/Macarena Cuevas CV 2022.pdf'
+import imgMe from '../../img/fotolinkedin_opt.png';
+import CV from '../../files/Macarena Cuevas CV 2022.pdf'
 
 const SectionAboutMe = () => {
   return (

@@ -1,9 +1,9 @@
-import Header from './components/header'
-import SectionPresentation from './components/sectionPresentation'
-import SectionProjects from './components/sectionProjects'
+import Header from './components/header/header'
 import { Element} from 'react-scroll';
-import SectionContact from './components/sectionContact';
-import SectionAboutMe from './components/sectionAboutMe';
+import SectionPresentation from './components/sectionPresentation/sectionPresentation'
+import SectionProjects from './components/sectionProjects/sectionProjects'
+import SectionContact from './components/sectionContact/sectionContact';
+import SectionAboutMe from './components/sectionAboutMe/sectionAboutMe';
 
 function App() {
 

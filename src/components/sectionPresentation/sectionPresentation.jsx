@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './styles/sectionPresentation.css';
+import './sectionPresentation.css';
 import { Slide } from "react-awesome-reveal";
 
 const SectionPresentation = () => {
