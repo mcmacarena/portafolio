@@ -33,7 +33,7 @@ const SectionContact = () => {
             <div className='containerMailLinkedin'>
               <div className='tooltip' >
                 <span className='tooltiptext' id='myTooltip'>Copiar correo</span>
-                <div className='containerMail' onClick={() => copyMail('macarenacuevasg@gmail.com')}>
+                <div className='containerMail' onClick={() => copyMail('macarena.cuevas.g@gmail.com')}>
                   <div className='iconEmail'>
                     <img src={gmail} alt='' className='photoGmail' />
                   </div>
@@ -41,7 +41,7 @@ const SectionContact = () => {
                     EMAIL:
                 </div>
                   <div className='myEmail'>
-                    macarenacuevasg@gmail.com
+                    macarena.cuevas.g@gmail.com
                 </div>
                 </div>
               </div>

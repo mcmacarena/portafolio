@@ -9,12 +9,12 @@ const SectionPresentation = () => {
         <div className='containerTextsPresentation'>
           <Slide delay={100} duration={1500} direction='right' triggerOnce>
             <span className='namePresentation'>
-              Soy Macarena Cuevas
+              Soy Macarena Cuevas Guzmán
               </span>
           </Slide>
           <Slide delay={500} duration={1500} direction='right' triggerOnce>
             <span className='especialityPresentation'>
-              Front-end Developer
+              Ingeniera Civil | Front-end Developer
             </span>
           </Slide>
           <Slide delay={1000} duration={1500} direction='right' triggerOnce>
